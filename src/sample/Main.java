@@ -75,6 +75,10 @@ public class Main extends Application {
             p.setProperty("password","masterkey");
             p.setProperty("useUnicode","true");
             p.setProperty("lc_ctype","win1251");
+            p.setProperty("setChar","UNICODE_FSS");
+            p.setProperty("encodind","UNICODE_FSS");
+            p.setProperty("localEncoding","windows-1251");
+
             p.setProperty("driver", "org.firebirdsql.jdbc.FBDriver");
 
             String driverName = p.getProperty("driver", "org.firebirdsql.jdbc.FBDriver");
