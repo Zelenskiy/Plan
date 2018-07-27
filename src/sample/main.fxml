@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="542.0" prefWidth="668.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <TabPane prefHeight="542.0" prefWidth="738.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <tabs>
+        <Tab text="Річний план">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+                  <tabs>
+                    <Tab text="Редагування">
+                      <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                          <children>
+                            <TreeView prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                            <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+                              <children>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Ідентифікатор" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Напрям" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Мета" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="452.0">
+                                  <children>
+                                    <Label text="Зміст" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                    <TextArea prefHeight="154.0" prefWidth="331.0" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Строки" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Форма уз." AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Відповід." AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <Label text="Примітка" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <Label text="Запис:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                              </children>
+                            </VBox>
+                          </children>
+                        </AnchorPane>
+                      </content>
+                    </Tab>
+                    <Tab text="Експорт">
+                      <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                      </content>
+                    </Tab>
+                  </tabs>
+                </TabPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Розклад уроків">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
