@@ -6,8 +6,14 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.hibernate.HibernateException;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import sample.dao.PlanDao;
+import sample.models.PlanEntity;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main extends Application {
 
@@ -16,9 +22,26 @@ public class Main extends Application {
 
 
         //Hibernate Configuration
-        Configuration cfg = new Configuration()
-                .configure("main/resources/hibernate.cfg.xml");
-        SessionFactory sf = cfg.buildSessionFactory();
+//        Configuration cfg = new Configuration()
+//                .configure("main/resources/hibernate.cfg.xml");
+//        SessionFactory sf = cfg
+//                .buildSessionFactory();
+
+        PlanDao c = new PlanDao();
+        PlanEntity cc = c.findById(101);
+        System.out.println("-----> "+cc.getZmist());
+
+//        PlanEntity planEntity = session.get(PlanEntity.class,101);
+//        System.out.println("------> "+planEntity.getZmist().toString());
+
+
+
+                //session.get(PlanEntity.class, 101);
+
+//        PlanDao planDao = new PlanDao();
+//        PlanEntity planEntity = planDao.findById(101);
+//        System.out.println("------> "+planEntity.getZmist().toString());
+
 
         Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         primaryStage.setTitle("АРМ завуча школи");

@@ -8,8 +8,6 @@
     <session-factory>
         <property name="connection.driver_class">org.firebirdsql.jdbc.FBDriver</property>
         <property name="connection.url">jdbc:firebirdsql:localhost/3050:d:/MyDoc/projects_java/Plan1/WebContent/Base/BASE.FDB?autoReconnect=true</property>
-        <property name="connection.username">SYSDBA</property>
-        <property name="connection.password">masterkey</property>
         <property name="connection.pool_size">1</property>
         <property name="dialect">org.hibernate.dialect.FirebirdDialect</property>
         <property name="current_session_context_class">thread</property>
@@ -17,7 +15,7 @@
         <property name="show_sql">false</property>
         <property name="hbm2ddl.auto">update</property>
         <property name="hibernate.current_session_context_class">thread</property>
-
+        <mapping class="sample.models.PlanEntity"/>
 
 
     </session-factory>
