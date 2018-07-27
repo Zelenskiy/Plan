@@ -17,19 +17,15 @@ public class Main extends Application {
 
         //Hibernate Configuration
         Configuration cfg = new Configuration()
-                .configure("D:\\java\\Plan\\src\\sample\\hibernate.cfg.xml");
-        try (SessionFactory sf = cfg.buildSessionFactory()) {
-        } catch(HibernateException exception){
-            System.out.println("Problem creating session factory");
-            exception.printStackTrace();
-        }
+                .configure("main/resources/hibernate.cfg.xml");
+        SessionFactory sf = cfg.buildSessionFactory();
 
-//        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
-//        primaryStage.setTitle("АРМ завуча школи");
-//        primaryStage.setMinHeight(600);
-//        primaryStage.setMinWidth(800);
-//        primaryStage.setScene(new Scene(root, 800, 600));
-//        primaryStage.show();
+        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+        primaryStage.setTitle("АРМ завуча школи");
+        primaryStage.setMinHeight(600);
+        primaryStage.setMinWidth(800);
+        primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.show();
 
     }
 
