@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.GridPane?>
 
-<GridPane alignment="CENTER" hgap="10.0" prefHeight="542.0" prefWidth="668.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="600.0" prefWidth="800.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
   <children>
     <TabPane prefHeight="542.0" prefWidth="738.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="0" GridPane.rowIndex="0">
       <tabs>
@@ -27,19 +27,19 @@
                               <children>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                                     <Label text="Ідентифікатор" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
                                   </children>
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                                     <Label text="Напрям" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
                                   </children>
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                                     <Label text="Мета" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
                                   </children>
                                 </AnchorPane>
@@ -51,26 +51,36 @@
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="2.0" />
                                     <Label text="Строки" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
                                   </children>
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="2.0" />
                                     <Label text="Форма уз." AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
                                   </children>
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="2.0" />
                                     <Label text="Відповід." AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
                                   </children>
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
                                   <children>
-                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                                    <TextField maxWidth="1.7976931348623157E308" prefWidth="268.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="2.0" />
                                     <Label text="Примітка" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                                  </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="41.0" prefWidth="370.0">
+                                  <children>
+                                    <Button layoutX="102.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="&lt;&lt;" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                                    <Button layoutX="155.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="&lt;" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                                    <Button layoutX="205.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="&gt;" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                                    <Button layoutX="255.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="&gt;&gt;" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                                    <Button layoutX="344.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="+" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                                    <Button layoutX="395.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="-" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
                                   </children>
                                 </AnchorPane>
                                 <AnchorPane prefHeight="41.0" prefWidth="370.0">
