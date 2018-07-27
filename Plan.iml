@@ -4,10 +4,11 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="e7f455c9-7d36-4e0a-ac79-de7e054ffded" />
           <unit-entry name="main:resources:hibernate.cfg.xml" value="db44bbca-3fd3-4a7c-8ff6-059635b391e3" />
         </datasource-map>
         <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
@@ -22,5 +23,11 @@
     <orderEntry type="library" name="jaybird-full-2.2.0" level="project" />
     <orderEntry type="library" name="hibernate-commons-annotations-4.0.2.Final" level="project" />
     <orderEntry type="library" name="hibernate-core-4.2.21.Final" level="project" />
+    <orderEntry type="library" name="hibernate-entitymanager-4.2.21.Final" level="project" />
+    <orderEntry type="library" name="hibernate-jpa-2.0-api-1.0.1.Final" level="project" />
+    <orderEntry type="library" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" name="antlr-2.7.7" level="project" />
+    <orderEntry type="library" name="jboss-logging-3.1.0.GA" level="project" />
+    <orderEntry type="library" name="jboss-transaction-api_1.1_spec-1.0.1.Final" level="project" />
   </component>
 </module>

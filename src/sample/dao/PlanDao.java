@@ -3,15 +3,23 @@ package sample.dao;
 
 import sample.utils.HibernateSessionFactoryUtilBase;
 import sample.models.PlanEntity;
+import sample.utils.HibernateUtil;
 
 public class PlanDao {
 
 
 	public PlanEntity findById(int id) {
-        return (PlanEntity) HibernateSessionFactoryUtilBase
-                .getSessionFactory()
+        PlanEntity planEntity =  HibernateUtil
+
                 .openSession()
                 .get(PlanEntity.class, id);
+
+//        PlanEntity planEntity =  HibernateSessionFactoryUtilBase
+//                .getSessionFactory()
+//                .openSession()
+//                .get(PlanEntity.class, id);
+
+        return planEntity;
     }
 
 //    public void save(PlanEntity plans) {

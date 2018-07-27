@@ -16,7 +16,7 @@ public class HibernateSessionFactoryUtilBase {
     private static SessionFactory configureSessionFactory()
             throws HibernateException {
 
-        Configuration configuration = new Configuration().configure();
+        Configuration configuration = new Configuration().configure("src.main.resources/hibernate.cfg.xml");
 
         serviceRegistry = new ServiceRegistryBuilder().applySettings(
                 configuration.getProperties()).buildServiceRegistry();
@@ -24,6 +24,7 @@ public class HibernateSessionFactoryUtilBase {
     }
 
     public static SessionFactory getSessionFactory() {
+
         return sessionFactory;
     }
 }

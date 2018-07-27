@@ -13,5 +13,14 @@
         <property name="localEncoding" value="windows-1251" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="e7f455c9-7d36-4e0a-ac79-de7e054ffded">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <configured-by-url>true</configured-by-url>
+      <remarks>$PROJECT_DIR$/src/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.firebirdsql.jdbc.FBDriver</jdbc-driver>
+      <jdbc-url>jdbc:firebirdsql:localhost/3050:d:/MyDoc/projects_java/Plan1/WebContent/Base/BASE.FDB?autoReconnect=true</jdbc-url>
+    </data-source>
   </component>
 </project>
