@@ -106,6 +106,8 @@ public class Main extends Application {
         } catch (SQLException e) {
             e.printStackTrace();
             // Could not connect to the database
+
+            //Тут зараз я написав якусь фігну для тестування GIT
         }
     }
 
